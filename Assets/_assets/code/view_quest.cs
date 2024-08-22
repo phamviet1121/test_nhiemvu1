@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class view_quest : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class view_quest : MonoBehaviour
     public datalist Ddatalist;
     public get_quest get_Quest;
     public Transform vitri;
+    public GameObject mau;
 
     private Dictionary<int, get_quest> questDictionary = new Dictionary<int, get_quest>();
 
@@ -19,7 +21,7 @@ public class view_quest : MonoBehaviour
             //savequest index= Ddatalist.saveDataQuest.Find(index=>index.id==data.id);
             taora(data);
         }
-        
+        mau.SetActive(false);
     }
 
     // Update is called once per frame

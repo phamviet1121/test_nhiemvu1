@@ -16,18 +16,28 @@ MonoBehaviour:
   - id: 0
     anh_img: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: sfgfh
-    tiendo_txt: 3
+    tiendo_txt: 51
+    tiendo_hoanthanh_txt: 50
     trangthai_btn: 1
-    trangthai_txt: dddg
+    trangthai_txt: da hoan thanh
   - id: 1
     anh_img: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: eetry
-    tiendo_txt: 44
-    trangthai_btn: 1
-    trangthai_txt: tgfthtt
+    tiendo_txt: 51
+    tiendo_hoanthanh_txt: 60
+    trangthai_btn: 0
+    trangthai_txt: chua hoan thanh
   - id: 2
     anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: yjyyii
-    tiendo_txt: 90
+    tiendo_txt: 89
+    tiendo_hoanthanh_txt: 90
     trangthai_btn: 0
-    trangthai_txt: yuytuyi
+    trangthai_txt: chua hoan thanh
+  - id: 3
+    anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: yjyyii
+    tiendo_txt: 111
+    tiendo_hoanthanh_txt: 100
+    trangthai_btn: 1
+    trangthai_txt: da hoan thanh

@@ -31,6 +31,8 @@ public class datalist : MonoBehaviour
                 anh_img = quest.anh_img,
                 thongtin_txt = quest.thongtin_txt,
                 tiendo_txt = quest.tiendo_txt,
+
+                tiendo_hoanthanh_txt=quest.tiendo_hoanthanh_txt,
                 trangthai_btn = quest.trangthai_btn,
                 trangthai_txt = quest.trangthai_txt
             };
@@ -66,6 +68,8 @@ public class datalist : MonoBehaviour
                     anh_img = savedData.anh_img,
                     thongtin_txt = savedData.thongtin_txt,
                     tiendo_txt = savedData.tiendo_txt,
+
+                    tiendo_hoanthanh_txt= savedData.tiendo_hoanthanh_txt,
                     trangthai_btn = savedData.trangthai_btn,
                     trangthai_txt = savedData.trangthai_txt
                 };

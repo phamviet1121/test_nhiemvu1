@@ -11,6 +11,7 @@ public class get_quest : MonoBehaviour
     public Image icon_img;
     public Text thongtin_text;
     public Text tiendo_text;
+    public Text tiendo_hoanthanh_text;
     public Button trangthai_button;
     public Text trangthai_text;
 
@@ -27,6 +28,8 @@ public class get_quest : MonoBehaviour
         icon_img.sprite = Dataquest.anh_img;
         thongtin_text.text = Dataquest.thongtin_txt;
         tiendo_text.text = Dataquest.tiendo_txt;
+
+        tiendo_hoanthanh_text.text = Dataquest.tiendo_hoanthanh_txt;
         trangthai_button.interactable = Dataquest.trangthai_btn;
         trangthai_text.text = Dataquest.trangthai_txt;
 

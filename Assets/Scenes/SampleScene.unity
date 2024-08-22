@@ -383,6 +383,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466561456}
   m_CullTransparentMesh: 1
+--- !u!1 &499442671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499442672}
+  - component: {fileID: 499442674}
+  - component: {fileID: 499442673}
+  m_Layer: 5
+  m_Name: tiendo_hoanthanh_txt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &499442672
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499442671}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1255416266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 224, y: 73.705}
+  m_SizeDelta: {x: -1021.58, y: 78.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &499442673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499442671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.086491585, g: 0, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 00
+--- !u!222 &499442674
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499442671}
+  m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,9 +753,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Quest_list: {fileID: 11400000, guid: 289414407ad6bed4cb7b795d28993333, type: 2}
-  Ddatalist: {fileID: 1255416270}
+  Ddatalist: {fileID: 1423995020}
   get_Quest: {fileID: 1255416269}
   vitri: {fileID: 1423995016}
+  mau: {fileID: 1255416265}
 --- !u!114 &664411735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +794,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664411732}
+  m_CullTransparentMesh: 1
+--- !u!1 &732622204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 732622205}
+  - component: {fileID: 732622207}
+  - component: {fileID: 732622206}
+  m_Layer: 5
+  m_Name: /
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &732622205
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732622204}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1255416266}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 31.689884, y: -69.285034}
+  m_SizeDelta: {x: 90.81, y: 70.61}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &732622206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732622204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 62
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 62
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: /
+--- !u!222 &732622207
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732622204}
   m_CullTransparentMesh: 1
 --- !u!1 &742846846
 GameObject:
@@ -1179,6 +1338,8 @@ RectTransform:
   - {fileID: 358891947}
   - {fileID: 1182258481}
   - {fileID: 1950175991}
+  - {fileID: 732622205}
+  - {fileID: 499442672}
   - {fileID: 1468079555}
   m_Father: {fileID: 1423995016}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1242,11 +1403,13 @@ MonoBehaviour:
     anh_img: {fileID: 0}
     thongtin_txt: 
     tiendo_txt: 
+    tiendo_hoanthanh_txt: 
     trangthai_btn: 0
     trangthai_txt: 
   icon_img: {fileID: 358891948}
   thongtin_text: {fileID: 1182258482}
   tiendo_text: {fileID: 1950175992}
+  tiendo_hoanthanh_text: {fileID: 499442673}
   trangthai_button: {fileID: 1468079556}
   trangthai_text: {fileID: 1470139418}
 --- !u!114 &1255416270
@@ -1256,7 +1419,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1255416265}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fc368f322bdd9645bf5d64c90b463a5, type: 3}
   m_Name: 
@@ -1267,18 +1430,21 @@ MonoBehaviour:
     anh_img: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: sfgfh
     tiendo_txt: 45
+    tiendo_hoanthanh_txt: 
     trangthai_btn: 1
     trangthai_txt: dddg
   - id: 1
     anh_img: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: eetry
     tiendo_txt: 435
+    tiendo_hoanthanh_txt: 
     trangthai_btn: 0
     trangthai_txt: tgfthtt
   - id: 2
     anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     thongtin_txt: yjyyii
     tiendo_txt: 56
+    tiendo_hoanthanh_txt: 
     trangthai_btn: 0
     trangthai_txt: yuytuyi
 --- !u!1 &1307602906
@@ -1545,7 +1711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quest_list: {fileID: 11400000, guid: 289414407ad6bed4cb7b795d28993333, type: 2}
-  datalist: {fileID: 1255416270}
+  datalist: {fileID: 1423995020}
   idd: {fileID: 587372918}
   tiendo: {fileID: 2032025528}
   capnhat: {fileID: 1353901646}
@@ -1560,6 +1726,8 @@ GameObject:
   - component: {fileID: 1423995016}
   - component: {fileID: 1423995018}
   - component: {fileID: 1423995017}
+  - component: {fileID: 1423995020}
+  - component: {fileID: 1423995019}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1625,6 +1793,74 @@ MonoBehaviour:
   m_Spacing: {x: 20, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
+--- !u!114 &1423995019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423995015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f194babb8a4a74c954c3ccaf6f68ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dataquest:
+    id: 0
+    anh_img: {fileID: 0}
+    thongtin_txt: 
+    tiendo_txt: 
+    tiendo_hoanthanh_txt: 
+    trangthai_btn: 0
+    trangthai_txt: 
+  icon_img: {fileID: 358891948}
+  thongtin_text: {fileID: 1182258482}
+  tiendo_text: {fileID: 1950175992}
+  tiendo_hoanthanh_text: {fileID: 499442673}
+  trangthai_button: {fileID: 1468079556}
+  trangthai_text: {fileID: 1470139418}
+--- !u!114 &1423995020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423995015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc368f322bdd9645bf5d64c90b463a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quest_list: {fileID: 11400000, guid: 289414407ad6bed4cb7b795d28993333, type: 2}
+  saveDataQuest:
+  - id: 0
+    anh_img: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: sfgfh
+    tiendo_txt: 50
+    tiendo_hoanthanh_txt: 50
+    trangthai_btn: 1
+    trangthai_txt: dddg
+  - id: 1
+    anh_img: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: eetry
+    tiendo_txt: 55
+    tiendo_hoanthanh_txt: 60
+    trangthai_btn: 0
+    trangthai_txt: tgfthtt
+  - id: 2
+    anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: yjyyii
+    tiendo_txt: 90
+    tiendo_hoanthanh_txt: 90
+    trangthai_btn: 1
+    trangthai_txt: yuytuyi
+  - id: 3
+    anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: yjyyii
+    tiendo_txt: 90
+    tiendo_hoanthanh_txt: 100
+    trangthai_btn: 0
+    trangthai_txt: yuytuyi
 --- !u!1 &1468079554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1873,7 @@ GameObject:
   - component: {fileID: 1468079558}
   - component: {fileID: 1468079557}
   - component: {fileID: 1468079556}
+  - component: {fileID: 1468079559}
   m_Layer: 5
   m_Name: trangthai_btn
   m_TagString: Untagged
@@ -1707,7 +1944,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1468079557}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1468079559}
+        m_TargetAssemblyTypeName: click_btn, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1468079557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1746,6 +1995,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468079554}
   m_CullTransparentMesh: 1
+--- !u!114 &1468079559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468079554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17b76a8df134614090886998e6cd653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quest_list: {fileID: 11400000, guid: 289414407ad6bed4cb7b795d28993333, type: 2}
+  datalist: {fileID: 1423995020}
+  cick_button: {fileID: 1468079556}
+  click_button_txt: {fileID: 1470139418}
 --- !u!1 &1470139416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,8 +2279,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -11.51001, y: 79.3}
-  m_SizeDelta: {x: -734.08, y: 78.6}
+  m_AnchoredPosition: {x: -150, y: 73.705}
+  m_SizeDelta: {x: -1021.58, y: 78.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1950175992
 MonoBehaviour:

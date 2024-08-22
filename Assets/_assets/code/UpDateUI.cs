@@ -22,7 +22,19 @@ public class UpDateUI : MonoBehaviour
             if (data.id == a)
             {
                 data.tiendo_txt = tiendo.text;
+                if (int.Parse(data.tiendo_txt.ToString()) >= int.Parse(data.tiendo_hoanthanh_txt.ToString()))
+                {
+                    data.trangthai_btn = true;
+                    data.trangthai_txt = "da hoan thanh";
+                }
+                else
+                {
+                    data.trangthai_btn = false;
+                    data.trangthai_txt = "chua hoan thanh";
+                }
+                //FindObjectOfType<click_btn>().UpdateButtonState(data.id);
             }
+            
         }
         datalist.save();
         //FindObjectOfType<view_quest>().CapNhatGiaoDien();

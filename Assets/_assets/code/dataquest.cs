@@ -9,6 +9,7 @@ public class dataquest
     public Sprite anh_img;
     public string thongtin_txt;
     public string tiendo_txt;
+    public string tiendo_hoanthanh_txt;
     public bool trangthai_btn;
     public string trangthai_txt;
 
