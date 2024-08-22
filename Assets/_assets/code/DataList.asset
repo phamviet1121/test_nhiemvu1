@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ce51542273f9345abb423b62275023, type: 3}
+  m_Name: DataList
+  m_EditorClassIdentifier: 
+  dataquestslist:
+  - id: 0
+    anh_img: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: sfgfh
+    tiendo_txt: 3
+    trangthai_btn: 1
+    trangthai_txt: dddg
+  - id: 1
+    anh_img: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: eetry
+    tiendo_txt: 44
+    trangthai_btn: 1
+    trangthai_txt: tgfthtt
+  - id: 2
+    anh_img: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    thongtin_txt: yjyyii
+    tiendo_txt: 90
+    trangthai_btn: 0
+    trangthai_txt: yuytuyi
