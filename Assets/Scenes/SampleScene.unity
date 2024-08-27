@@ -2009,6 +2009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quest_list: {fileID: 11400000, guid: 289414407ad6bed4cb7b795d28993333, type: 2}
   datalist: {fileID: 1423995020}
+  thongtin_txtt: {fileID: 1182258482}
   cick_button: {fileID: 1468079556}
   click_button_txt: {fileID: 1470139418}
 --- !u!1 &1470139416
